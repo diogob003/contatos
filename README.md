@@ -49,10 +49,10 @@ $ brew install gtk+3
 ### Compilando e executando
 Basta clonar o repositório e utilizar o comando make para compilar
 ```bash
-$ git clone https://github.com/diogoborges14/contatos.git
+$ git clone https://github.com/diogob003/contatos.git
 $ cd contatos/
 $ make
-$ /contatos
+$ ./contatos
 ```
 
 ## License

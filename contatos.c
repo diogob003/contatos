@@ -235,7 +235,7 @@ void startApplication(GtkApplication *app, gpointer user_data)
 
 int main(int argc, char **argv)
 {
-    GtkApplication *app = gtk_application_new("com.github.diogoborges14.contatos", G_APPLICATION_FLAGS_NONE);
+    GtkApplication *app = gtk_application_new("com.github.diogob003.contatos", G_APPLICATION_FLAGS_NONE);
     g_signal_connect(app, "activate", G_CALLBACK(startApplication), NULL);
 
     return g_application_run(G_APPLICATION(app), argc, argv);
